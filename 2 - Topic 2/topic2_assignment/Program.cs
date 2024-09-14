@@ -12,7 +12,6 @@ namespace ouioui
         static void Main(string[] args)
         {
             double pi = Math.PI;
-            Console.WriteLine(Math.Round((pi * (3 * 3)), 1) + " cm^2");
             Console.WriteLine("Hm, what year was I born again?"); // very clueless
             Console.WriteLine("");
             Thread.Sleep(2000);
@@ -50,9 +49,11 @@ namespace ouioui
             Thread.Sleep(6500);
 
             Console.WriteLine("Through formatting of brackets. When \"+\" is inside of quotations in brackets, the addition sign will only be printed instead of actually operate a function. However, when there are no quotations around it, it will operate as expected.");
+            Console.WriteLine("");
 
             Thread.Sleep(3000);
             Console.WriteLine("okau");
+            Console.WriteLine("");
             Thread.Sleep(2000);
         }
     }
